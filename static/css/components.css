@@ -1,0 +1,90 @@
+/*style.css*/
+/*component*/
+/*header*/
+.v-header .header {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #E4E4E4;
+    font-size: 20px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9;
+    margin-bottom: 10px;
+}
+
+.v-header .header_left i {
+    font-size: 23px;
+    font-style: normal;
+}
+
+.v-header .header_left a {
+    color: #000;
+}
+
+.v-header .header_center {
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.v-header .header_right {
+    text-align: right;
+}
+
+.v-header .header_right span {
+    color: #0082FD;
+}
+
+.v-header .header_space {
+    height: 51px;
+}
+
+/*footer*/
+
+.v-footer.weui-tabbar {
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.v-page-info .weui-loadmore {
+    height: 24px;
+    line-height: 24px;
+    padding: 0px 55px 55px 55px;
+    text-align: center;
+}
+
+.v-panel img {
+    width: 100%;
+}
+.v-panel .weui-panel__hd{
+	color:#353535;
+	font-family:Georgia;
+    font-family:Arial;
+    font-style: italic;
+    font-size: 18px;
+}
+.v-panel .weui-media-box {
+    padding: 2px;
+    position: relative;
+}
+
+.v-panel .weui-media-box__info {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.v-list .weui-flex__item{
+    padding-right: 1px;
+    padding-bottom: 1px
+}
+.v-list .weui-flex__item img{
+    width: 100%; 
+} 

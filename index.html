@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>photos_app</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--   <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+     viewport 后面加上 minimal-ui 在safri 体现效果
+    <meta name="apple-mobile-web-app-capable" content="yes">
+     隐藏状态栏/设置状态栏颜色
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+     uc强制竖屏
+    <meta name="screen-orientation" content="portrait">
+     UC强制全屏
+    <meta name="full-screen" content="yes">
+     UC应用模式
+    <meta name="browsermode" content="application">
+     QQ强制竖屏
+    <meta name="x5-orientation" content="portrait">
+     QQ强制全屏
+    <meta name="x5-fullscreen" content="true">
+     QQ应用模式
+    <meta name="x5-page-mode" content="app">
+-->
+    <link rel="stylesheet" href="/static/weui/lib/weui.min.css">
+    <link rel="stylesheet" href="/static/weui/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="/static/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/components.css?v=ddddd">
+    <link rel="stylesheet" href="/static/css/page.css">
+    <style type="text/css">
+    .slide-enter {
+        transform: translate3d(100%, 0, 0);
+    }
+    
+    .slide-enter-active {
+        animation: slideIn .2s forwards;
+    }
+    
+    .slide-leave-active {
+        opacity: 0;
+        transition: opacity .2s ease;
+    }
+    
+    @keyframes slideIn {
+        from {
+            transform: translate3d(100%, 0, 0);
+        }
+        to {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    
+    @keyframes slideOut {
+        from {
+            transform: translate3d(0, 0, 0);
+        }
+        to {
+            transform: translate3d(100%, 0, 0);
+        }
+    }
+    </style>
+</head>
+
+<body ontouchstart>
+    <div id="app">
+        <transition name="slide" mode="out-in">
+            <router-view class="view"></router-view>
+        </transition>
+    </div>
+    <!-- divbuilt files will be auto injected -->
+    <script src="/static/weui/lib/jquery-2.1.4.js"></script>
+    <script src="/static/weui/js/jquery-weui.min.js"></script>
+</body>
+
+</html>

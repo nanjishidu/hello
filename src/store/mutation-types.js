@@ -1,0 +1,38 @@
+export const PAGE_STATUS = 'PAGE_STATUS'; //加载状态
+
+export const API_PHOTOS_LIST = 'API_PHOTOS_LIST'; //获取图片列表
+export const API_PHOTOS_INFO = 'API_PHOTOS_INFO'; //获取图片
+//图片状态修改
+export const API_PHOTOS_STATUS = 'API_PHOTOS_STATUS'; //
+//图片喜欢
+export const API_PHOTOS_LIKE_LIST = 'API_PHOTOS_LIKE_LIST'; //
+export const API_PHOTOS_LIKE_ADD = 'API_PHOTOS_LIKE_ADD'; //
+export const API_PHOTOS_LIKE_DELETE = 'API_PHOTOS_LIKE_DELETE'; //
+export const API_PHOTOS_TIPOFF_LIST = 'API_PHOTOS_TIPOFF_LIST'; 
+export const API_PHOTOS_TIPOFF_ADD = 'API_PHOTOS_TIPOFF_ADD'; //获取随机图片
+export const API_PHOTOS_TIPOFF_DELETE = 'API_PHOTOS_TIPOFF_DELETE'; //获取随机图片
+
+//用户关注
+export const API_USERS_FOLLOWING_LIST = 'API_USERS_FOLLOWING_LIST'; //
+export const API_USERS_FOLLOWER_LIST = 'API_USERS_FOLLOWER_LIST'; //
+export const API_USERS_FOLLOW_STATUS = 'API_USERS_FOLLOW_STATUS'; //
+export const API_USERS_FOLLOWING_ADD = 'API_USERS_FOLLOWING_ADD'; //
+export const API_USERS_FOLLOWING_DELETE = 'API_USERS_FOLLOWING_DELETE'; //
+
+//用户登录
+export const API_LOGIN = 'API_LOGIN'; //
+//用户登出
+export const API_LOGOUT = 'API_LOGOUT'; //
+//获取用户信息
+export const API_USERS_INFO = 'API_USERS_INFO'; 
+export const API_USERS_PERSONAL_INFO = 'API_USERS_PERSONAL_INFO'; 
+//更新用户密码
+export const API_USERS_UPDATEPASSWD = 'API_USERS_UPDATEPASSWD'; 
+//用户注册
+export const API_REGISTER = 'API_REGISTER'; 
+//忘记密码
+export const API_FORGET_PASSWD = 'API_FORGET_PASSWD'; 
+
+//消息
+export const API_MESSAGE_USERS = 'API_MESSAGE_USERS'; 
+export const API_MESSAGE_PHOTOS = 'API_MESSAGE_PHOTOS'; 

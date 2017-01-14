@@ -1,0 +1,48 @@
+/*page.css*/
+
+.login .weui-cell {
+    padding: 20px 15px;
+}
+
+.login .login-router-link {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.login .login-router-link a {
+    color: #939393;
+}
+
+.message .weui-cell {
+    padding: 20px 15px
+}
+
+.message .weui-cell__bd {
+    padding-left: 20px;
+    font-size: 16px
+}
+.message .weui-cell__bd span {
+    color: #999;
+    font-size: 16px
+}
+.my_follow .weui-cell {
+    padding: 20px 15px
+}
+
+.my_follow .weui-cell__bd {
+    padding-left: 20px;
+    font-size: 16px
+}
+
+.my_follow .weui-cell__bd span {
+    color: #999;
+    font-size: 16px
+}
+.weui-btn_primary {
+    background-color: #80bd01;
+}
+.photo-info .photos-space {
+    padding-top: 80px;
+}
