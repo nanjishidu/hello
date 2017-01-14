@@ -22,7 +22,7 @@ vue因为最近工作需要学习,感觉很简洁,有一种写mvc的感觉。
 4.启动服务：      npm run dev
 5.发布代码：      npm run build
 ```
-## 扫一扫二维码查看效果
+## 扫一扫二维码查看效果(测试用户:test,密码:1)
  <img src="shot/1.jpg" width = "300" height = "300" alt="shot" align=center />
 ## 免责声明
 
