@@ -32,16 +32,19 @@ export default {
     getters: {
         findDatas: function(state) {
             var _data = state.randData
-            if (index % 3 == 0) {
-                if (_data.length - 2 >= index) {
-                    let list = new Array()
-                    list[0] = _data[index]
-                    list[1] = _data[index + 1]
-                    list[2] = _data[index + 2]
-                    list3[index / 3] = list
-                }
+            var list3 = new Array()
+            _data.forEach(function(item, index) {
+                if (index % 3 == 0) {
+                    if (_data.length - 2 >= index) {
+                        let list = new Array()
+                        list[0] = _data[index]
+                        list[1] = _data[index + 1]
+                        list[2] = _data[index + 2]
+                        list3[index / 3] = list
+                    }
 
-            }
+                }
+            });
             return list3;
         },
     },
