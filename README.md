@@ -1,27 +1,26 @@
 # hello
 
-> A Vue.js project
+> A Vue.js project 
+## 前言
 
-## Build Setup
+作为学习vue的demo,仿照instagram。参照[lzxb/vue-cnode](https://github.com/lzxb/vue-cnode)。
 
-``` bash
-# install dependencies
-npm install
+以前主要集中在后端开发。vue是最近工作需要学习的,感觉很简洁,有一种写mvc的感觉。
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 技术栈
 
-# build for production with minification
-npm run build
+基于vue2 + vue-router + vuex + ES6 + jQuery-WeUI，使用webpack打包
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+## 使用项目
 ```
+1.克隆项目：      git clone https://github.com/nanjishidu/hello.git
+2.安装nodejs
+3.安装依赖：      npm install
+4.启动服务：      npm run dev
+5.发布代码：      npm run build
+```
+## 扫一扫二维码查看效果
+![shot](shot/1.jpg)
+## 免责声明
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+采集部分图片作为测试,如果不小心采集了您的大作,请通知我删除
